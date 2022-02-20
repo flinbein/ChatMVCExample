@@ -1,0 +1,13 @@
+<#macro titleLine rawText="test" dashCount=10 color="white" dashSymbol="=" >
+    <text color="${color}">
+        <#list 0..dashCount as i>${dashSymbol}</#list>
+        <space/>
+    </text>
+
+    <#nested>
+
+    <text color="${color}">
+    <space/>
+        <#list 0..dashCount as i>${dashSymbol}</#list>
+    </text>
+</#macro>

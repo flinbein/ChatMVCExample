@@ -1,0 +1,16 @@
+name: ChaMVCExample
+version: '${project.version}'
+main: ru.flinbein.chatmvcexample.ChaMVCExamplePlugin
+api-version: 1.18
+prefix: ChatMVCEx
+load: STARTUP
+depend: [ ChatMVC ]
+authors: [ MYXOMOPX, DPOHVAR ]
+description: An example of ChatMVC Plugin
+website: flinbein.ru
+
+commands:
+  cmvvm:
+    description: ChatMVC MVVM Example
+    aliases: ['^']
+    usage: /^ inventory
